@@ -2,7 +2,7 @@ import joblib
 import streamlit as st
 import pandas as pd
 
-model = joblib.load('random_forest_model.pkl')
+model = joblib.load('src/random_forest_model.pkl')
 
 def predict_heart_disease(data):
     prediction = model.predict(data)
