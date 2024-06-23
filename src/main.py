@@ -1,6 +1,6 @@
+import joblib
 import streamlit as st
 import pandas as pd
-import joblib
 
 model = joblib.load('random_forest_model.pkl')
 
